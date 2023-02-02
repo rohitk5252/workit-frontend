@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost:4000',
+      target: 'https://workout-app-rohitk5252-api.onrender.com',
       changeOrigin: true,
     })
   );
